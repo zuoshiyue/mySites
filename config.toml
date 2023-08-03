@@ -1,5 +1,5 @@
 baseURL = "https://zuoshiyue.gitee.io"
-title = "左拾月的HugoSite"
+title = "左拾月的Hugo"
 paginate = 5
 theme = "PaperMod"
 enableRobotsTXT = true
@@ -15,7 +15,7 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "左拾月的HugoSite"
+title = "左拾月的Hugo"
 description = "用心甘情愿的态度，过随遇而安的生活。"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "左拾月"
@@ -47,14 +47,14 @@ tocopen = false
   safari_pinned_tab = "<link / abs url>"
 
   [params.label]
-  text = "左拾月的HugoSite"
+  text = "左拾月的Hugo"
   icon = "/apple-touch-icon.png"
   iconHeight = 35
 
   [params.profileMode]
   enabled = false
-  title = "ExampleSite"
-  subtitle = "This is subtitle"
+  title = "左拾月的Hugo"
+  subtitle = "Hugo"
   imageUrl = "<img location>"
   imageWidth = 120
   imageHeight = 120
@@ -70,19 +70,8 @@ tocopen = false
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
-  Content = "Welcome to my blog"
+  Content = "Welcome to my site"
 
-  [[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/"
-
-  [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
-
-  [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -115,13 +104,13 @@ SiteVerificationTag = "XYZabc"
 [[menu.main]]
 identifier = "navigation"
 name = "navigation"
-url = "/navigation/"
+url = "https://zuoshiyue.gitee.io/navi"
 weight = 10
 
 [[menu.main]]
-identifier = "categories"
+identifier = "posts"
 name = "categories"
-url = "/categories/"
+url = "/posts/"
 weight = 20
 
 [[menu.main]]
